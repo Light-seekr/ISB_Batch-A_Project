@@ -370,7 +370,7 @@ class App:
         # Subheading
         self.sub_label = tk.Label(
             self.header_frame,
-            text="Project made by BATCH A | SNEHIL GHOSH, GAUTAM N CHIPKAR, AMRUTHA VARSHANI, AYUSH GORGE",
+            text="Project made by BATCH A | SNEHIL GHOSH, GAUTAM N CHIPKAR, AMRUTHA VARSHANI, AYUSH GEORGE",
             font=("Consolas", 12),
             fg="#cccccc",
             bg="#181818",
