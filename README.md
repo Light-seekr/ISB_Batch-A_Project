@@ -1,7 +1,4 @@
-Here is a clean, professional, developer-friendly GitHub README tailored exactly for your project code.
-I’ve written it in a polished format suitable for recruiters, open-source contributors, and project showcases.
 
-⸻
 
 🎮 Infosys GestureVolume
 
