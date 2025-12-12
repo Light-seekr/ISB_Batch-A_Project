@@ -13,7 +13,7 @@ Comes with a 3-panel advanced HUD:
 	•	🎚️ Real-time mic volume control via PyCAW
 	•	🎛️ Smart smoothing using rolling frame buffers
 
-Built for Infosys / IBM SkillsBuild Internship Project — Batch A.
+Built for Infosys Springboard Internship 6.0 Batch A.
 
 ⸻
 
