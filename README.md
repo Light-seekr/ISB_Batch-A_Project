@@ -213,7 +213,8 @@ Press Q to quit.
 🏢 Author & Credits
 
 Developed By:
-Batch A – Infosys / IBM SkillsBuild Internship (2025)
+Batch A – Infosys Springboard Internship 6.0 (2025)
+
 
 Hand-Tracking Powered by MediaPipe • Audio API via PyCAW
 
