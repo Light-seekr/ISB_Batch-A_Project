@@ -113,12 +113,12 @@ State Smoothing	collections.deque
 
 📂 Project Structure
 
-GestureVolume/
-│
-├── main.py                # Main UI + gesture + graph + audio system
-├── README.md              # Documentation
-├── requirements.txt       # Dependencies
-└── assets/ (optional)     # Icons / UI assets
+GestureVolume/  
+│  
+├── main.py                # Main UI + gesture + graph + audio system  
+├── README.md              # Documentation  
+├── requirements.txt       # Dependencies  
+└── assets/ (optional)     # Icons / UI assets  
 
 
 ⸻
