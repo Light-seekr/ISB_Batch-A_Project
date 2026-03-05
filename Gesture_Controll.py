@@ -1,7 +1,3 @@
-# =========================================================
-# Infosys_GestureVolume – Unified Control Hub (Jupyter Safe)
-# Option A: Subprocess-based mode isolation (FIXED)
-# =========================================================
 
 import tkinter as tk
 import subprocess
@@ -23,7 +19,7 @@ current_process = None   # holds running mode process
 
 
 # =========================================================
-# 1. FULL ORIGINAL MODE CODES (AS STRINGS – UNTOUCHED)
+# 1. FULL ORIGINAL MODE CODES (AS STRINGS)
 # =========================================================
 
 GESTURE_CODE =r"""
@@ -575,7 +571,7 @@ class App:
 
         # --- Camera Setup ---
         try:
-            self.cap = cv2.VideoCapture(CAM_INDEX, cv2.CAP_DSHOW)
+            self.cap = cv2.VideoCapture(0)
         except Exception:
             self.cap = cv2.VideoCapture(CAM_INDEX)
 
@@ -854,7 +850,7 @@ class App:
         self.win_h = win_h
 
         # 1. Camera
-        try: self.cap = cv2.VideoCapture(self.cam_index, cv2.CAP_DSHOW)
+        try: self.cap = cv2.VideoCapture(self.cam_index)
         except: self.cap = cv2.VideoCapture(self.cam_index)
         if not self.cap.isOpened(): raise RuntimeError("Cannot open camera.")
 
